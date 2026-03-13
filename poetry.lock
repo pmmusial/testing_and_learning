@@ -437,22 +437,23 @@ dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests
 
 [[package]]
 name = "pytest-cov"
-version = "6.2.0"
+version = "7.0.0"
 description = "Pytest plugin for measuring coverage."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "pytest_cov-6.2.0-py3-none-any.whl", hash = "sha256:bd19301caf600ead1169db089ed0ad7b8f2b962214330a696b8c85a0b497b2ff"},
-    {file = "pytest_cov-6.2.0.tar.gz", hash = "sha256:9a4331e087a0f5074dc1e19fe0485a07a462b346cbb91e2ac903ec5504abce10"},
+    {file = "pytest_cov-7.0.0-py3-none-any.whl", hash = "sha256:3b8e9558b16cc1479da72058bdecf8073661c7f57f7d3c5f22a1c23507f2d861"},
+    {file = "pytest_cov-7.0.0.tar.gz", hash = "sha256:33c97eda2e049a0c5298e91f519302a1334c26ac65c1a483d6206fd458361af1"},
 ]
 
 [package.dependencies]
-coverage = {version = ">=7.5", extras = ["toml"]}
-pytest = ">=4.6"
+coverage = {version = ">=7.10.6", extras = ["toml"]}
+pluggy = ">=1.2"
+pytest = ">=7"
 
 [package.extras]
-testing = ["fields", "hunter", "process-tests", "pytest-xdist", "virtualenv"]
+testing = ["process-tests", "pytest-xdist", "virtualenv"]
 
 [[package]]
 name = "pytest-mock"
@@ -601,4 +602,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "82ab0887592bc221da1f2ebac62e889fcc64b90629154c5681a4de0db2de61c7"
+content-hash = "cd334e9140454aee2c999e536cdb749fd69bc8fd40b979e242026c64e0e2052b"
