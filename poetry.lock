@@ -84,14 +84,14 @@ requests = ">=2.7.9"
 
 [[package]]
 name = "colorama"
-version = "0.4.0"
+version = "0.4.1"
 description = "Cross-platform colored terminal text."
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 groups = ["main"]
 files = [
-    {file = "colorama-0.4.0-py2.py3-none-any.whl", hash = "sha256:a3d89af5db9e9806a779a50296b5fdb466e281147c2c235e8225ecc6dbf7bbf3"},
-    {file = "colorama-0.4.0.zip", hash = "sha256:c9b54bebe91a6a803e0772c8561d53f2926bfeb17cd141fbabcb08424086595c"},
+    {file = "colorama-0.4.1-py2.py3-none-any.whl", hash = "sha256:f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"},
+    {file = "colorama-0.4.1.tar.gz", hash = "sha256:05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d"},
 ]
 
 [[package]]
@@ -422,4 +422,4 @@ testing = ["func-timeout", "jaraco.itertools", "pathlib2", "unittest2"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.4"
-content-hash = "63001e8676755f2ff3b409a2941880357e3f677b53d72753c25bcb2c5f16104b"
+content-hash = "8ad9e7fe2b164631c8d9ae6ccc6f438a4187487375f3c0d2c6b6531ab68d3ff5"
