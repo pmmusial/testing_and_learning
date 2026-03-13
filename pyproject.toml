@@ -26,4 +26,5 @@ python = "^3.8"
 text-template = "0.1.4"
 certifi = ">=2023.7.22,<2024.8.0"
 urllib3 = "==2.2.3"
+idna = "3.7"
 [tool.poetry.group.dev.dependencies]
