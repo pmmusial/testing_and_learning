@@ -2,14 +2,14 @@
 
 [[package]]
 name = "ansi-colours"
-version = "0.2.6"
+version = "1.0.0"
 description = "Library of static methods for colouring text in terminal output"
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "ansi_colours-0.2.6-py2.py3-none-any.whl", hash = "sha256:f24645819f25ba58f8dba420b65eba49e6c6b5965143198d400268d54c501a41"},
-    {file = "ansi_colours-0.2.6.tar.gz", hash = "sha256:5a4ebabaa89f91d67491ccdebf74574bbb3ad38a27dc950321853dba6a808fa7"},
+    {file = "ansi_colours-1.0.0-py2.py3-none-any.whl", hash = "sha256:a6218b2be8040b3e2d0f5c123403355786662cf62c3fc4eac3c0e36606918d51"},
+    {file = "ansi_colours-1.0.0.tar.gz", hash = "sha256:2a301fe4453eaa61cc44fe437ceb53968f954119f30fc2b52ef5bc4250f6739e"},
 ]
 
 [[package]]
@@ -422,4 +422,4 @@ testing = ["func-timeout", "jaraco.itertools", "pathlib2", "unittest2"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.4"
-content-hash = "8ad9e7fe2b164631c8d9ae6ccc6f438a4187487375f3c0d2c6b6531ab68d3ff5"
+content-hash = "61de933ad39492dbab580b7dd5e442b0553cc5df775d60d557e4f38e9c4dd46a"
