@@ -21,7 +21,7 @@ coverage = "4.5.1"
 more-itertools = "4.3.0"
 pytest = "3.10.0"
 pytest-cov = "2.6.0"
-pytest-mock = "1.10.0"
+pytest-mock = "2.0.0"
 python = "^3.4"
 text-template = "0.1.4"
 [tool.poetry.group.dev.dependencies]
