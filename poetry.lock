@@ -171,19 +171,15 @@ testing = ["importlib-resources ; python_version < \"3.7\"", "packaging"]
 
 [[package]]
 name = "more-itertools"
-version = "4.3.0"
+version = "7.2.0"
 description = "More routines for operating on iterables, beyond itertools"
 optional = false
-python-versions = "*"
+python-versions = ">=3.4"
 groups = ["main"]
 files = [
-    {file = "more-itertools-4.3.0.tar.gz", hash = "sha256:c476b5d3a34e12d40130bc2f935028b5f636df8f372dc2c1c01dc19681b2039e"},
-    {file = "more_itertools-4.3.0-py2-none-any.whl", hash = "sha256:fcbfeaea0be121980e15bc97b3817b5202ca73d0eae185b4550cbfce2a3ebb3d"},
-    {file = "more_itertools-4.3.0-py3-none-any.whl", hash = "sha256:c187a73da93e7a8acc0001572aebc7e3c69daf7bf6881a2cea10650bd4420092"},
+    {file = "more-itertools-7.2.0.tar.gz", hash = "sha256:409cd48d4db7052af495b09dec721011634af3753ae1ef92d2b32f73a745f832"},
+    {file = "more_itertools-7.2.0-py3-none-any.whl", hash = "sha256:92b8c4b06dac4f0611c0729b2f2ede52b2e1bac1ab48f089c7ddc12e26bb60c4"},
 ]
-
-[package.dependencies]
-six = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "packaging"
@@ -455,4 +451,4 @@ testing = ["func-timeout", "jaraco.itertools", "pathlib2", "unittest2"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.4"
-content-hash = "6c204c11161adad25104bb3bba1c5f474d45a6b6178fad85b4381af09b4e3631"
+content-hash = "88d1aaed2bea7299b4399560e80eaa005884ef5c08df8cdbf8cf42782f4d80aa"
