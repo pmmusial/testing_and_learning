@@ -9,3 +9,12 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    # Define groups
+    groups:
+      # Group all minor and patch updates for GitHub actions
+      gh-actions:
+        patterns:
+          - "actions/*" # Use patterns to match dependency names
+        update-types:
+          - "minor"
+          - "patch"
