@@ -14,7 +14,7 @@ authors = ["Sarcoma <sean@orderandchaoscreative.com>"]
 license = "MIT"
 [tool.poetry.dependencies]
 Pygments = "2.3.1"
-ansi-colours = "0.2.6"
+ansi-colours = "1.0.0"
 codecov = "2.1.13"
 colorama = "0.4.1"
 coverage = "4.5.1"
