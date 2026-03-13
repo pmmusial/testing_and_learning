@@ -235,14 +235,14 @@ files = [
 
 [[package]]
 name = "pygments"
-version = "2.2.0"
+version = "2.3.1"
 description = "Pygments is a syntax highlighting package written in Python."
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "Pygments-2.2.0-py2.py3-none-any.whl", hash = "sha256:78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d"},
-    {file = "Pygments-2.2.0.tar.gz", hash = "sha256:dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc"},
+    {file = "Pygments-2.3.1-py2.py3-none-any.whl", hash = "sha256:e8218dd399a61674745138520d0d4cf2621d7e032439341bc3f647bff125818d"},
+    {file = "Pygments-2.3.1.tar.gz", hash = "sha256:5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a"},
 ]
 
 [[package]]
@@ -422,4 +422,4 @@ testing = ["func-timeout", "jaraco.itertools", "pathlib2", "unittest2"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.4"
-content-hash = "b80af8b9ccbed0ecb06b9744d27bd063ace175f0137856ab072b7ca05d3d0fbe"
+content-hash = "63001e8676755f2ff3b409a2941880357e3f677b53d72753c25bcb2c5f16104b"
