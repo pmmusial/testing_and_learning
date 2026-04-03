@@ -13,7 +13,7 @@ description = "Console Rummy game"
 authors = ["Sarcoma <sean@orderandchaoscreative.com>"]
 license = "MIT"
 [tool.poetry.dependencies]
-Pygments = "2.19.2"
+Pygments = "2.20.0"
 ansi-colours = "1.0.0"
 codecov = "2.1.13"
 colorama = "0.4.6"
